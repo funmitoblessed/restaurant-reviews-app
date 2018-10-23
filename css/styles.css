@@ -384,10 +384,10 @@ nav h1 a {
 
 
 /* 
- * Devices from 370px up to
+ * Devices from 371px up to 470px
  */
 
-@media screen and (min-width: 370px) {
+@media screen and (min-width: 371px) and (max-width: 470px) {
     .filter-options h2 {
         text-align: left;
         margin-left: 20%;
@@ -407,3 +407,42 @@ nav h1 a {
         align-content: center;
     }
 }
+
+
+/* 
+ * Devices from 471px up to 700px
+ */
+
+@media screen and (min-width: 471px) and (max-width: 700px) {
+    .filter-options h2 {
+        text-align: left;
+        margin-left: 5%;
+    }
+    #restaurants-list {
+        padding: 5% 0 10% 0;
+    }
+    #restaurants-list li {
+        width: 60%;
+        margin: 5% auto;
+    }
+    #neighborhoods-select {
+        width: 40%;
+        align-content: center;
+        margin-left: 5%;
+    }
+    #cuisines-select {
+        width: 40%;
+        align-content: center;
+        margin-left: 5%;
+    }
+    .filter-options select {
+        margin-left: auto;
+    }
+}
+
+
+/* 
+ * Devices from 701px
+ */
+
+@media screen and (min-width: 701px) {}
