@@ -20,7 +20,7 @@
     <header>
         <!-- Beginning nav -->
         <nav>
-            <h1><a tabindex="0" href="/">Restaurant Reviews</a></h1>
+            <h1><a aria-label="Selected Restaurant" tabindex="1" href="/">Restaurant Reviews</a></h1>
         </nav>
         <!-- Beginning breadcrumb -->
         <ul id="breadcrumb">
@@ -35,16 +35,16 @@
     <main id="maincontent">
         <!-- Beginning map -->
         <section id="map-container">
-            <div id="map"></div>
+            <div id="map" aria-label="location" role="application"></div>
         </section>
         <!-- End map -->
         <!-- Beginning restaurant -->
-        <section id="restaurant-container">
-            <h1 id="restaurant-name"></h1>
-            <img id="restaurant-img">
-            <p id="restaurant-cuisine"></p>
-            <p id="restaurant-address"></p>
-            <table id="restaurant-hours"></table>
+        <section id="restaurant-container" aria-label="Resturant Details">
+            <h1 tabindex="1" id="restaurant-name"></h1>
+            <img tabindex="1" id="restaurant-img">
+            <p tabindex="1" id="restaurant-cuisine"></p>
+            <p tabindex="1" id="restaurant-address"></p>
+            <table tabindex="1" id="restaurant-hours"></table>
         </section>
         <!-- end restaurant -->
         <!-- Beginning reviews -->
@@ -82,3 +82,11 @@
 </body>
 
 </html>
+
+<!-- Helpers
+     https://www.washington.edu/accessibility/web/keyboard/
+     https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex
+     https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/
+     https://laludztee.github.io/Restaurant-Review-App/
+     https://github.com/Laludztee/Restaurant-Review-App/blob/master/js/main.js
+-->
