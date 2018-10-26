@@ -24,7 +24,7 @@ To view this app live, click [here](https://ofunmito.github.io/udacity-fe-nanode
 
 [Author](#Author)
 
-[Live](#Demo)
+[Demo](#Demo)
 
 [Starter Code](#Starter)
 
@@ -46,8 +46,7 @@ To run the application:
 1. Your computer should have python installed. To check, run python -V on your terminal. Visit Python's [website](https://www.python.org/downloads/) to download python if you don't have it installed already.
 2. It your python version is 2.X, run the following on a terminal to start the server `python -m SimpleHTTPServer 8000`
 3. If your python version is 3.X, run the folliwng on a terminal to start the server `python3 -m http.server 8000`
-4. Launch the application from `localhost:8000`
-6. Open a browser window and navigate to the index.html file in your application's directory.
+4. Open a new browser window and launch the application from `http://localhost:8000`
 
 ## Dependencies
 
